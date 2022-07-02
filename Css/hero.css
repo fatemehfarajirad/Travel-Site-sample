@@ -1,0 +1,37 @@
+#hero{
+    min-height: 30vh;
+}
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    position: relative;
+}
+.hero__lt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-color);
+}
+.hero__guid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hero__flow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    position: absolute;
+    background-color: var(--light-color);
+    border-radius: 1rem;
+    border: 2rem solid var(--light-color);
+}
+.flow__item{
+    display: flex;
+}
+.flow__item--btn{
+    border-radius: 3rem;
+}
+.guid__lt--btn{
+    border-radius: 1rem;
+}

@@ -1,0 +1,24 @@
+#heade{
+    min-height: 10vh;
+    
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.navbar__logo{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+.logo__img{
+    width: 10%;
+}
+.navbar__menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.logo__text{
+    font-weight: 500;
+}
