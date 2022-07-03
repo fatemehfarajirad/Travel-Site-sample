@@ -1,6 +1,6 @@
 #heade{
     min-height: 10vh;
-    
+    background-color: var(--light-color);
 }
 .navbar{
     display: grid;
