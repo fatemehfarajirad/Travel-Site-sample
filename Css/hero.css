@@ -1,70 +1,96 @@
-#hero{
-    min-height: 20vh;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 18%, rgb(245 245 246) 18%, rgb(244 245 247) 100%);
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #hero{
+        min-height: 20vh;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 18%, rgb(245 245 246) 18%, rgb(244 245 247) 100%);
+    }
+    .hero__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero__lt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--gray-color);
+    }
+    .hero__lt h1{
+        font-size: 6rem;
+    }
+    .hero__lt p{
+        opacity: 0.5;
+        padding-bottom: 4rem;
+    }
+    .hero__guid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 4rem;
+        padding: 5rem;
+    }
+    .hero__flow{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        background-color: var(--light-color);
+        border-radius: 1rem;
+        border: 2rem solid var(--light-color);
+        width: 95%;
+        padding: 2rem;
+        gap: 2rem;
+        position: absolute;
+        box-shadow: -1px 6px 14px 3px rgb(161 161 161 / 64%);
+        -webkit-box-shadow:  -1px 6px 14px 3px rgb(161 161 161 / 64%);
+        top: 82.5rem;
+        
+    }
+    .flow__item{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .flow__item--btn{
+        border-radius: 3rem;
+        padding:1rem 5rem 1rem 5rem;
+        color: var(--light-color);
+    }
+    .guid__lt--btn{
+        border-radius: 1rem 1rem 0 0;
+        padding: 1rem 3rem 1rem 3rem;
+        color: var(--light-color);
+        font-weight: 500;
+    }
+    .flow__text{
+        display: grid;
+    }
+    .flow__text P{
+        opacity: 0.5;
+    }
+    .hero__circles--1 img{
+        z-index: 100;
+        position: absolute;
+        width: 4%;
+        height: 10%;
+        object-fit: cover;
+        border-radius:50rem;
+        border: 0.5rem solid var(--light-color);
+        left: -6rem;
+        top: -24rem;
+    }
 }
-.hero__wrapper{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    align-items: center;
-}
-.hero__lt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--gray-color);
-}
-.hero__lt h1{
-    font-size: 7rem;
-}
-.hero__lt p{
-    opacity: 0.5;
-    padding-bottom: 4rem;
-}
-.hero__guid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 4rem;
-    
-}
-.hero__flow{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    background-color: var(--light-color);
-    border-radius: 1rem;
-    border: 2rem solid var(--light-color);
-    width: 80%;
-    padding: 2rem;
-    gap: 2rem;
-    position: absolute;
-    box-shadow: -1px 6px 14px 3px rgb(161 161 161 / 64%);
-    -webkit-box-shadow:  -1px 6px 14px 3px rgb(161 161 161 / 64%);
-    top: 84rem;
-    
-}
-.flow__item{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 1rem;
-    align-items: center;
-}
-.flow__item--btn{
-    border-radius: 3rem;
-    padding:1rem 5rem 1rem 5rem;
-    color: var(--light-color);
-}
-.guid__lt--btn{
-    border-radius: 1rem 1rem 0 0;
-    padding: 1rem 3rem 1rem 3rem;
-    color: var(--light-color);
-    font-weight: 500;
-}
-.flow__text{
-    display: grid;
-}
-.flow__text P{
-    opacity: 0.5;
-}
+
+
