@@ -84,16 +84,58 @@
     .hero__circles{
         position: absolute;
     }
+    .hero__circles--1{
+        left: 3.19rem;
+        top: -12rem;
+        position: relative;
+    }
     .hero__circles--1 img{
-        
-        width: 4%;
-        height: 10%;
+        width: 6rem;
+        height: 6rem;
         object-fit: cover;
         border-radius:50rem;
         border: 0.5rem solid var(--light-color);
-        left: -6rem;
-        top: -24rem;
+    }
+    .hero__circles--2{
+        left: 2.1rem;
+        top: -11rem;
+        position: relative;
+    }
+    .hero__circles--2 img{
+        width: 8rem;
+        height: 8rem;
+        object-fit: cover;
+        border-radius:50rem;
+        border: 0.5rem solid var(--light-color);
+    }
+    .hero__circles--3{
+        left: 2.1999999999999886rem;
+        top: -9rem;
+        position: relative;
+    }
+    .hero__circles--3 img{
+        width: 6rem;
+        height: 6rem;
+        object-fit: cover;
+        border-radius:50rem;
+        border: 0.5rem solid var(--light-color);
+    }
+    .hero__circles--4{
+        left: 3.5rem;
+        top: -8rem;
+        position: relative;
+    }
+    .hero__circles--4 img{
+        width: 4rem;
+        height: 4rem;
+        object-fit: cover;
+        border-radius:50rem;
+        border: 0.5rem solid var(--light-color);
     }
 }
+
+
+
+    
 
 
