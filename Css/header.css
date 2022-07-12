@@ -1,24 +1,88 @@
-#header{
-    min-height: 10vh;
-    background-color: var(--light-color);
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar{
+        grid-template-columns: repeat(auto-fill,30rem) !important;
+    }
+    .logo__img{
+        width: 10% !important;
+    }
+    .navbar__menu{
+        grid-template-columns: repeat(auto-fill, 10rem) !important;
+    }
 }
-.navbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar{
+        grid-template-columns: repeat(auto-fill,45rem)!important;
+    }
 }
-.navbar__logo{
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
-}
-.logo__img{
-    width: 10%;
-}
-.navbar__menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.logo__text{
-    font-weight: 500;
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #header{
+        min-height: 10vh !important;
+        background-color: var(--light-color) !important;
+    }
+    .navbar{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill,80rem) !important;
+        align-items: center !important;
+    }
+    .navbar__logo{
+        display: flex !important;
+        justify-content: start !important;
+        align-items: flex-end !important;
+    }
+    .logo__img{
+        width: 5% !important;
+    }
+    .navbar__menu{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, 10rem) !important;
+    }
+    .logo__text{
+        font-weight: 500 !important;
+    }
+    #hero{
+        min-height: 10vh !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25rem;
+        padding-top: 5rem;
+    }
+    .hero__left{
+        display: flex;
+        flex-direction: column;
+        gap: 12rem;
+    }
+    .hero__buttons{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3rem;
+    }
+    .btn--right{
+        border: 1rem solid var(--dark-color);
+        
+    }
+    .hero__right{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+        align-items: center;
+    }
+    .hero__right--email{
+        transform: rotate(270deg);
+    }
+    .hero__right--phone{
+        transform: rotate(270deg);
+    }
 }
