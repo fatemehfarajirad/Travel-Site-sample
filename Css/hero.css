@@ -19,16 +19,16 @@
     left: 7rem !important;
     }
     .hero__circles--1 {
-        left: 37.19rem !important;
+        left: 55.19rem !important;
     }
     .hero__circles--2 {
-        left: 36.1rem !important;
+        left: 5.1rem !important;
     }
     .hero__circles--3 {
-        left: 37.19rem !important;
+        left: 55.19rem !important;
     }
     .hero__circles--4 {
-        left: 38rem !important;
+        left: 55rem !important;
     }
 }
 
@@ -42,19 +42,20 @@
     }
     .hero__flow{
         grid-template-columns: repeat(auto-fill,19rem) !important;
-        top: 78rem !important;
+        top: 82rem !important;
+        width: 92% !important;
     }
     .hero__circles--1 {
-        left: 37.19rem !important;
+        left: 55.19rem !important;
     }
     .hero__circles--2 {
-        left: 36.1rem !important;
+        left: 54.1rem !important;
     }
     .hero__circles--3 {
-        left: 37.19rem !important;
+        left: 55.19rem !important;
     }
     .hero__circles--4 {
-        left: 38rem !important;
+        left: 56rem !important;
     }
      
 }
